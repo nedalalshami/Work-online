@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    position: relative;
+min-height: 100vh;
+}
+.d1{
+    position: absolute;
+     width: 300px;
+    height: 450px;
+  background: #000;
+border-radius: 10px;
+top: 90px;
+left:10%;
+}
+#d11{
+ position: absolute;
+    width:100%;
+   height: 100%;
+ background: white;
+border-radius: 10px;
+font-size: 30px;
+top: 0px;
+left: 0;
+box-shadow: 0px 0px 5px 2px;
+
+}
+.d1>a{
+position: absolute;
+left: 170px;
+top: 30px;
+text-decoration: none;
+font-size: 30px;
+color: white;
+z-index: 1;
+}
+.d1>a:hover{
+   font-size: 35px;
+ 
+
+}
+#d11:focus{
+    width:10px;
+font-size: 0;
+}
+#v1_back{
+  position: absolute;
+   width: 100%;
+   height: 100%;
+   z-index: -5;
+}
+/* start style vedio 2 */
+.d2{
+    position: absolute;
+     width: 300px;
+    height: 450px;
+  background: #000;
+border-radius: 10px;
+top: 550px;
+left:10%;
+
+
+}
+#d22{
+ position: absolute;
+    width:100%;
+   height: 100%;
+ background: white;
+ box-shadow: 0px 0px 5px 2px;
+border-radius: 10px;
+font-size: 30px;
+}
+.d2>a{
+position: absolute;
+top: 30%;
+left: 170px;
+text-decoration: none;
+font-size: 30px;
+color: white;
+z-index: 1;
+}
+.d2>a:hover{
+   font-size: 35px;
+}
+#d22:focus{
+    width:10px;
+font-size: 0;
+}
+#v2_back{
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   z-index: -5;
+  
+
+}
+.div_footer{
+  width: 100%;
+  height: 150px;
+  position: absolute;
+  top: 150%;
+bottom: 100px;
+align-items: center;
+display: flex;
+justify-content: center;
+box-shadow: 0 0 5px;
+}
+h1{
+  margin-left: 40%;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .d1{
+    left: 5%;
+  }
+  .d2{
+    left: 5%;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .d1{
+    left: 10%;
+  }
+  .d2{
+    left: 10%;
+  }
+}
+ 
